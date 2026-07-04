@@ -1,20 +1,27 @@
 # termina
 
-a tui-style obsidian theme. sharp corners, bordered panels with labels, monospace everything.
+[![GitHub release](https://img.shields.io/github/v/release/xevrion/obsidian-termina?style=flat-square)](https://github.com/xevrion/obsidian-termina/releases/latest)
+[![License](https://img.shields.io/github/license/xevrion/obsidian-termina?style=flat-square)](LICENSE)
+
+A tui-style Obsidian theme. Every panel becomes a bordered box with a lowercase label, sharp corners, monospace everything.
 
 ![termina screenshot](screenshot-full.png)
 
-## features
+No rounded corners, no fluff, just clean bordered panels like panes in a terminal multiplexer.
 
-- every panel (editor, sidebars, status bar, command palette) drawn as a bordered box with a lowercase label, like panes in a terminal multiplexer
-- zero rounded corners, anywhere
-- neutral oklch grayscale palette with a purple accent, dark and light
-- monospace throughout (DM Mono, falls back to JetBrains Mono / Fira Code)
-- every knob lives at the top of theme.css: gap size, border thickness, font, label color
+## Features
 
-## install
+- Every panel (editor, sidebars, status bar, command palette) drawn as a bordered box with a lowercase label
+- Zero rounded corners, anywhere
+- Neutral oklch grayscale palette with a purple accent, dark and light
+- Monospace throughout (DM Mono, falls back to JetBrains Mono / Fira Code)
+- Every knob lives at the top of `theme.css`: gap size, border thickness, font, label color
 
-Not yet on the community theme browser, so install it manually.
+## Installation
+
+Search for **termina** in Settings > Appearance > Themes > Manage. (Not yet on the community theme browser, submission pending.)
+
+### Manual
 
 Download this repo (or clone it with git) and copy the folder into your vault's theme directory as `termina`, so you end up with `.obsidian/themes/termina/manifest.json`.
 
@@ -23,7 +30,7 @@ Download this repo (or clone it with git) and copy the folder into your vault's 
 
 `.obsidian` is hidden, turn on "show hidden files" if you don't see it. Restart Obsidian afterward and enable termina in Settings > Appearance > Themes.
 
-### with git
+### With git
 
 macOS / Linux:
 
@@ -47,7 +54,7 @@ ln -s /path/to/obsidian-termina "<your-vault>/.obsidian/themes/termina"
 New-Item -ItemType SymbolicLink -Path "<your-vault>\.obsidian\themes\termina" -Target "C:\path\to\obsidian-termina"
 ```
 
-### font
+### Font
 
 The theme is built around DM Mono. Without it, it falls back to JetBrains Mono, Fira Code, or whatever monospace font you have.
 
@@ -67,7 +74,7 @@ done
 fc-cache -f
 ```
 
-## customization
+## Customization
 
 The variables that matter are at the top of `theme.css`:
 
@@ -81,6 +88,10 @@ The variables that matter are at the top of `theme.css`:
 
 Colors live in the `.theme-dark` / `.theme-light` blocks. Swap the `oklch()` values to retheme.
 
-## license
+## Support
+
+If you like this theme, a star on the repo helps others find it.
+
+## License
 
 MIT, see [LICENSE](LICENSE).
