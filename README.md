@@ -1,7 +1,10 @@
 # termina
 
 [![GitHub release](https://img.shields.io/github/v/release/xevrion/obsidian-termina?style=flat-square)](https://github.com/xevrion/obsidian-termina/releases/latest)
+[![GitHub downloads](https://img.shields.io/github/downloads/xevrion/obsidian-termina/total?style=flat-square)](https://github.com/xevrion/obsidian-termina/releases)
 [![License](https://img.shields.io/github/license/xevrion/obsidian-termina?style=flat-square)](LICENSE)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-support-ff5e5b?style=flat-square&logo=ko-fi)](https://ko-fi.com/xevrion)
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub-sponsor-ea4aaa?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/xevrion)
 
 A tui-style Obsidian theme. Every panel becomes a bordered box with a lowercase label, sharp corners, monospace everything.
 
@@ -90,7 +93,9 @@ Colors live in the `.theme-dark` / `.theme-light` blocks. Swap the `oklch()` val
 
 ## Support
 
-If you like this theme, a star on the repo helps others find it.
+If this theme saves you time, consider buying me a coffee or sponsoring on GitHub. A star on the repo helps others find it too.
+
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/xevrion)
 
 ## License
 
