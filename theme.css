@@ -283,9 +283,9 @@ body {
 }
 
 /* resize handles: invisible, the gap is the divider */
-.workspace-leaf-resize-handle {
-    background-color: transparent !important;
-    border: none !important;
+.workspace .workspace-leaf-resize-handle {
+    background-color: transparent;
+    border: none;
 }
 
 /* left ribbon: thin bordered strip */
@@ -529,7 +529,7 @@ input[type='text'],
 input[type='search'],
 input[type='number'],
 textarea {
-    border-radius: 0 !important;
+    border-radius: var(--radius-s);
     font-family: var(--termina-font);
 }
 
