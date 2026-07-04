@@ -2,6 +2,8 @@
 
 a tui-style obsidian theme. sharp corners, bordered panels with labels, monospace everything.
 
+![termina screenshot](screenshot-full.png)
+
 ## features
 
 - every panel (editor, sidebars, status bar, command palette) drawn as a bordered box with a lowercase label, like panes in a terminal multiplexer
